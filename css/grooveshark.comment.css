@@ -1,0 +1,259 @@
+/*
+ * Styling for the comment box
+ */
+.gsAppendToComment {
+    width: 80px !important;
+    text-shadow: 0 1px 0 #fff;
+    background: #21759b none repeat-x scroll left top;
+    border-color: #298cba !important;
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 11px !important;
+    cursor: pointer;
+    padding:2px 8px;
+    -moz-border-radius-bottomleft: 11px;
+    -moz-border-radius-bottomright: 11px;
+    -moz-border-radius-topleft: 11px;
+    -moz-border-radius-topright: 11px;
+}
+
+#gsCommentBox {
+    font-size:11px !important;
+    color:#ccc !important;
+    line-height:1 !important;
+}
+
+#gsCommentBox h3 {
+    font-size:15px !important
+    font-weight:bold;
+    color:#000;
+    text-align:left;
+}
+
+#gsCommentBox #songs-search {
+    padding:6px !important;
+}
+
+#gsCommentBox #searchInputWrapper {
+    float:left !important;
+    margin-left:-60px !important;
+    width:100% !important;
+    display:inline !important;
+}
+#gsCommentBox #searchInput {
+    margin-left:60px !important;
+    padding-right:12px !important;
+}
+#gsCommentBox #gs-query {
+    width:100% !important;
+    border:1px solid #dfdfdf;
+    background-color:#fff;
+    -moz-border-radius-bottomleft:4px !important;
+    -moz-border-radius-bottomright:4px !important;
+    -moz-border-radius-topleft:4px !important;
+    -moz-border-radius-topright:4px !important;
+    color:#333 !important;
+    font-size:12px !important;
+    margin:1px !important;
+    padding:3px !important;
+}
+#gsCommentBox #searchButton {
+    float:right !important;
+    display:inline !important;
+    width:60px !important;
+}
+#gsCommentBox #gsSearchButton {
+    width:60px !important;
+    border-color:#bbb !important;
+    color:#464646 !important;
+    background: 0 none !important;
+    background-color:#fff !important;
+}
+#gsCommentBox #search-results-header {
+    color:#333 !important;
+    padding:8px !important;
+    margin:1px !important;
+    height:11px !important;
+    text-align:left !important;
+    display:inline-block !important;
+    clear:both !important;
+}
+#gsCommentBox #search-results-header #query-result {
+    font-size:11px !important;
+    margin:0 !important;
+    border:0 none !important;
+    padding:0 none !important;
+    color:#333 !important;
+}
+#gsCommentBox #search-results-wrapper {
+    -moz-border-radius-bottomleft:3px !important;
+    -moz-border-radius-bottomright:3px !important;
+    border-color:#dfdfdf !important;
+    border-style:none solid solid !important;
+    border-width:medium 1px 1px !important;
+    margin-bottom:10px !important;
+    max-height:200px !important;
+    overflow-x:hidden !important;
+    overflow-y:auto !important;
+    color:#333 !important;
+}
+#gsCommentBox #save-music-choice-search, #gsCommentBox #selected-songs-table {
+    border-spacing:0 !important;
+    width:100% !important;
+    background-color:#f9f9f9 !important;
+    border:0 none !important;
+    margin:0 !important;
+    padding:0 !important;
+    color:#333 !important;
+}
+#gsCommentBox #save-music-choice-search tr, #gsCommentBox #selected-songs-table tr {
+    background:transparent none repeat scroll 0 0 !important;
+    border:0 none !important;
+    margin:0 !important;
+    padding:0 !important;
+    border-spacing:0 !important;
+}
+#gsCommentBox .gsTableButton {
+    font-size:0 !important;
+    text-align:center !important;
+    width:20px !important;
+    height:24px !important;
+    background:transparent none repeat scroll 0 0 !important;
+    border:0 none !important;
+    margin:0 !important;
+    padding:0 !important;
+    vertical-align:bottom !important;
+}
+#gsCommentBox .gsAdd {
+    cursor:pointer !important;
+    background:transparent url(../images/add.png) no-repeat scroll 4px 6px !important;
+    display:block !important;
+    height:24px !important;
+    width:20px !important;
+    color:#21759b !important;
+    border:0 none !important;
+    margin:0 !important;
+    padding:0 !important;
+}
+#gsCommentBox .gsPlay {
+    cursor:pointer !important;
+    background:transparent url(../images/play.png) no-repeat scroll 4px 6px !important;
+    display:block;
+    height:24px !important;
+    width:20px !important;
+    border:0 none !important;
+    margin:0 !important;
+    padding:0 !important;
+}
+#gsCommentBox .gsPause {
+    cursor:pointer !important;
+    border:0 none !important;
+    margin:0 !important;
+    padding:0 !important;
+    display:block !important;
+    width:20px !important;
+    height:24px !important;
+    background:url(../images/stop.png) no-repeat 4px 6px !important;
+    font-size:0px !important;
+}
+#gsCommentBox .gsRemove {
+    cursor:pointer !important;
+    background:transparent url(../images/remove.png) no-repeat scroll 4px 6px !important;
+    display:block;
+    height:24px !important;
+    width:20px !important;
+    border:0 none !important;
+    margin:0 !important;
+    padding:0 !important;
+}
+#gsCommentBox .gsTr27 td {
+    font-size:11px !important;
+    font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif !important;
+    border:0 none !important;
+    margin:0 !important;
+    height:14px !important;
+    background-color:#fff !important;
+    vertical-align:middle !important;
+}
+#gsCommentBox .gsTr1 td {
+    font-size:11px !important;
+    font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif !important;
+    border:0 none !important;
+    margin:0 !important;
+    height:14px !important;
+    background-color:transparent !important;
+    vertical-align:middle !important;
+}
+#gsCommentBox .gsTr27 {
+    background-color:#ccc !important;
+}
+#gsCommentBox .gsTr27, #gsComentBox .gsTr26 {
+    height:24px !important;
+}
+#gsCommentBox #selected-song {
+    padding:0 !important;
+    display:block !important;
+    height:auto !important;
+    margin:0 !important;
+    overflow:auto !important;
+    background-color:#f9f9f9 !important;
+}
+#gsCommentBox .gsSongBox27 {
+    padding: 6px !important;		
+}
+#gsCommentBox #selected-songs-header {
+    background-color:#f1f1f1 !important;
+    border:1px solid #dfdfdf !important;
+    padding:8px !important;
+    text-align:left !important;
+    color:#ccc !important;
+    margin:1px !important;
+    height:11px !important;
+}
+#gsCommentBox #queryResult {
+    display:inline !important;
+    font-size:11px !important;
+    font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif !important;
+    color:#333 !important;
+    margin-left:20px;
+}
+#gsCommentBox #clearSelected {
+    float:right !important;
+    text-decoration:none !important;
+    color:#21759b !important;
+}
+#gsCommentBox #selected-songs-header {
+    font-size:11px !important;
+    margin:0 !important;
+    color:#333 !important;
+}
+#gsCommentBox #selectedCount {
+    display:inline !important;
+    font-size:11px !important;
+    font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif !important;
+    color:#333 !important;
+}
+#gsCommentBox #selected-songs-table {
+    border-spacing:0px !important;
+    border:1px solid #DFDFDF !important;
+    border-top:none !important;
+    background:#F9F9F9 !important;
+    -moz-border-radius-bottomleft:3px !important;
+    -moz-border-radius-bottomright:3px !important;
+    width:100% !important;
+}
+#gsCommentBox #selected-songs-table tr {
+    cursor:move !important;
+}
+#gsCommentBox .gsTrDragged27 {
+    background-color:#eaf2fa !important;
+}
+#gsSave {
+    margin:0 auto !important;
+    border:0 none !important;
+    background-color:transparent !important;
+}
+#gsSave td, #gsSave tr {
+    border:0 none !important;
+    background-color:transparent !important;
+}

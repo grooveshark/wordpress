@@ -1,0 +1,614 @@
+/*
+ Grooveshark Wordpress Plugin CSS File
+ Note: All styles have !important declarations
+ to override wordpress styles. 
+ */
+
+/*
+ The box containing all the content
+ */
+
+#groovesharkdiv {
+}
+
+/*
+ The small box containing the link to the settings page
+ */
+#gsInfo {
+	margin-bottom:10px !important;
+}
+
+/*
+ The box containing anything related to song selection
+ */
+
+#gsSongSelection {
+    margin-bottom: 10px !important;
+}
+
+/*
+ Contains the tabs for selecting search, favorites, and playlists.
+ */
+#gsSongSelection table {
+	border-spacing:0 !important;
+	width:100% !important;
+}
+
+.gsTabContainer27 li{
+	float:left !important;
+	margin-bottom:0 !important;
+}
+
+.gsTabContainer26 {
+	list-style:none !important;
+	margin:0 !important;
+	padding:5px 0 1px 8px !important;
+	background:#EAF3FA;
+	height:25px;
+	border-bottom:2px solid #CEE1EF;
+}
+.gsTabContainer26 li{
+	float:left !important;
+	margin-bottom:0 !important;
+}
+
+/*
+ The following style the search, favorites, and playlists tabs.
+ */
+
+#search-option, #favorites-option, #playlists-option {
+    outline-style: none !important;
+    text-decoration: none !important;
+    font-size: 13px !important;
+    padding: 5px 8px !important;
+	display:block;
+}
+
+/*
+ Define styles for active and inactive tabs in different Wordpress versions
+ */
+
+.gsTabActive27, .gsTabInactive27, .gsTabActive26, .gsTabInactive26 {
+    border-color: #dfdfdf !important;
+}
+
+.gsTabActive27 {
+    background-color: #DFDFDF !important;
+    color: #333333 !important;
+	-moz-border-radius-topleft:5px !important;
+	-moz-border-radius-topright:5px !important;
+}
+
+.gsTabActive26 {
+    background-color: #cee1ef !important;
+    color: #333333 !important;
+    border-bottom-color: #cee1ef !important;
+	font-weight:700;
+	-moz-border-radius-topleft:5px !important;
+	-moz-border-radius-topright:5px !important;	
+}
+
+.gsTabInactive26 {
+    background-color: #eaf3fa !important;
+    color: #2583ad !important;
+    border-bottom-color: #f1f1f1 !important;
+}
+
+/*
+ Box containing the search input box and where results would appear.
+ Also applies to box containg favorite songs and playlists
+ */
+#songs-search, #songs-favorites, #songs-playlists {
+    margin: 0 0 10px 0 !important;
+    height: auto !important;
+    max-height: 200px !important;
+    overflow: auto !important;
+	overflow-x:hidden !important;
+}
+
+#songs-favorites, #songs-playlists {
+	padding: 0 !important;
+}
+
+#songs-favorites.gsSongBox27, #songs-playlists.gsSongBox27 {
+	border-top:1px solid #DFDFDF !important;
+}
+
+#songs-search.gsSongBox26 {
+	background:#CEE1EF !important;
+    padding: 10px 6px 6px 6px !important;
+}
+
+#songs-search.gsSongBox27 {
+    border:1px solid #DFDFDF !important;
+}
+
+/*
+ Define border color for the search, favorite, and playlist boxes
+ */
+
+.gsSongBox27 {
+	background:#F9F9F9 !important;
+	-moz-border-radius-topleft:0px !important;
+	-moz-border-radius-topright:3px !important;
+	-moz-border-radius-bottomleft:3px !important;
+	-moz-border-radius-bottomright:3px !important;
+    padding: 6px !important;		
+}
+
+.gsSongBox26 {
+    border: 1px solid #CEE1EF !important;	
+}
+
+/*
+ The search input box
+ */
+
+#searchInputWrapper {
+	width:100% !important;
+	margin-left:-60px !important;
+	float:left !important;
+}
+
+.gsSongBox26 #searchInputWrapper {
+	margin-left:-70px !important;
+}
+
+#searchInput {
+	margin-left:60px !important;
+	padding-right:5px !important;
+}
+
+.gsSongBox26 #searchInput {
+	margin-left:70px !important;
+}
+
+#searchButton {
+	float:right !important;
+}
+
+#gsSearchButton {
+        width:40px !important;
+}
+
+#gs-query {
+    width: 100% !important;
+}
+
+.gsSongBox26 #gs-query {
+	border:1px solid #80B5D0 !important;
+}
+
+
+#gs-query.empty {
+	color:#999 !important;
+}
+
+/*
+ Header (Search Results for Input:)
+ */
+
+#queryResult {
+    margin: 0 0 0 3px !important;
+    padding: 0 !important;
+    font-size: 1.5em !important;
+    border: 0 none !important;
+}
+
+.gsSongBox26 #queryResult {
+	margin-top:5px !important;
+}
+
+.groovesharkHeader {
+    margin: 0 0 0 2px !important;
+    padding: 0 !important;
+    font-size: 1.5em !important;
+    border: 0 none !important;
+    color:#464646 !important;
+    font-family:Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+    font-style:italic;
+    font-weight:normal;
+    line-height:35px;
+    text-shadow:0 1px 0 #FFFFFF;
+}
+
+/*
+ An error message provided when user is not logged in and wants
+ favorites or playlists
+ */
+
+#songs-favorites p, #songs-playlists p {
+    font-size: 11px !important;
+	margin:0 !important;
+	padding:8px !important;
+}
+
+/*
+ Contains the list of the user's favorite songs and playlists
+ Also contains the list of the user's search results
+ */
+
+.gs27 #search-results-header {
+	background:#F1F1F1 !important;
+	padding: 8px !important;
+	text-align:left !important;
+	border:1px solid #DFDFDF !important;
+	-moz-border-radius-topleft:3px !important;
+	-moz-border-radius-topright:3px !important;
+}
+
+.gs26 #search-results-header {
+	background:#CEE1EF !important;
+	padding: 8px !important;
+	text-align:left !important;
+	-moz-border-radius-topleft:5px !important;
+	-moz-border-radius-topright:5px !important;
+}
+
+#search-results-header h4 {
+	margin:0 !important;
+	font-size:11px !important;
+}
+
+#search-results-wrapper {
+	max-height: 200px;
+	overflow:auto;
+	overflow-x:hidden;
+	margin-bottom:10px;
+    border: 1px solid #DFDFDF !important;
+	border-top:none !important;
+	-moz-border-radius-bottomleft:3px !important;
+	-moz-border-radius-bottomright:3px !important;	
+}
+
+#save-music-choice-search {
+	background:#F9F9F9;
+}
+
+/*
+ Define styles for the table rows containing songs
+ Alternates between white and one of two colors depending
+ on the Wordpress versions
+ */
+
+.gsTr1 {
+    background-color: #ffffff !important;
+}
+
+.gsTr26 {
+    background-color: #EAF3FA !important;
+}
+.gsTr26 td, .gsTr27 td, .gsTr1 td, .gsTrDragged27 td, .gsTrDragged26 td{
+    padding:5px 0 5px 0 !important!
+    border:0 none !important;
+    margin:0 !important;
+    font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif !important;
+    font-size:11px !important;
+}
+.gsTableButton {
+    font-size:0px !important;
+}
+    
+
+/*
+.gsTr1:hover, .gsTr27:hover, .gsTr26:hover {
+    background-color: #bbbbff !important;
+}
+*/
+
+/*
+ Define style for table rows while
+ the rows are being dragged
+ */
+
+.gsTrDragged27 {
+    background-color: #eaf2fa !important;
+}
+
+.gsTrDragged26 {
+    background-color: #eee !important;
+}
+
+/*
+ The table cells containing a play, add, or remove button
+ */
+
+
+.gsPlay {
+	display:block;
+	width:20px;
+	height:24px;
+	background:url(../images/play.png) no-repeat 4px 6px;
+        font-size:0px !important;
+}
+
+.gsLoading {
+	display:block;
+	width:20px;
+	height:24px;
+	background:url(../images/loading.gif) no-repeat 4px 6px;
+        font-size:0px !important;
+}
+
+.gsPause {
+	display:block;
+	width:20px;
+	height:24px;
+	background:url(../images/stop.png) no-repeat 4px 6px;
+        font-size:0px !important;
+}
+
+.gsAdd {
+	display:block;
+	width:20px;
+	height:24px;
+	background:url(../images/add.png) no-repeat 4px 6px;
+        font-size:0px !important;
+}
+
+.gsRemove {
+	display:block;
+	width:20px;
+	height:24px;
+	background:url(../images/remove.png) no-repeat 4px 6px;
+        font-size:0px !important;
+}
+
+.gsNote {
+    display:block !important;
+    width: 20px !important;
+    height: 20px !important;
+    background:url(../images/note.png) no-repeat center !important;
+    font-size:0px !important;
+}
+
+.gsShow {
+    display:block;
+    width:20px;
+    height:24px;
+    background:url(../images/show.png) no-repeat 4px 6px;
+    font-size:0px !important;
+}
+
+.gsHide {
+    display:block;
+    width:20px;
+    height:24px;
+    background: #FEE url(../images/hide.png) no-repeat 4px 6px;
+    font-size:0px !important;
+}
+
+.gsPlaylistButton {
+    width:40px;
+}
+
+.gsTableButton {
+    width:20px !important;
+    text-align:center !important;
+    font-size:0px !important;
+}
+
+.gsTableButton:hover {
+    background-color: #EAF2FA !important;
+}
+
+.gsSongBox26 .gsTableButton:hover {
+	background-color: #CEE1EF !important;
+}
+
+.playlistRevealedSong {
+    outline: 0 none;
+    background-color: #FCC !important;
+}
+
+.gsTr1.playlistRevealedSong {
+    outline: 0 none;
+    background-color: #FEE !important;
+}
+
+
+/*
+ Header for Selected Songs
+ */
+
+#selectedCount {}
+
+/*
+ Clear All Link
+ */
+
+#clearSelected {
+    text-decoration: none !important;
+	float:right !important;
+}
+
+/*
+ Box containing the list of selected songs
+ The border-color property remains inline
+ */
+
+#selected-song {
+    display: block !important;
+    margin: 0 !important;
+    height: auto !important;
+    overflow: auto !important;
+}
+
+#selected-song.gsSongBox27 {
+    padding:0 !important;
+}
+
+/*
+ The selected songs table when it has no items
+ and when it has at least one item
+ */
+
+.gsSelectedPopulated {
+    border: 1px solid #f1f1f1 !important;
+}
+
+.gsSelectedEmpty {
+    border: 0 none !important;
+}
+
+/*
+ The Appearance toggle link
+ */
+
+#jsLink {
+    text-decoration: none !important;
+    font-size: 14px !important;
+    margin-left: 5px !important;
+}
+
+/*
+ The box containing the appearance settings
+ */
+#gsAppearance {
+
+}
+
+.gsAppearanceHidden {
+    display: none !important;
+}
+
+.gsAppearanceShown {
+    display: block !important;
+}
+
+#playlistAppearance, #singleAppearance {
+    margin: 0 0 0 2px !important;
+    font-size: 1.5em !important;
+    padding: 0 !important;
+    border: 0 none !important;
+    clear: both !important;
+}
+
+#gsAppearanceHead {
+    margin: 0 0 0 2px !important;
+    padding: 0 !important;
+    font-size: 1.5em !important;
+    border: 0 none !important;
+}
+
+.gsAppearanceOptions {
+	font-size:11px !important;
+	list-style:none !important;
+	padding:0 !important;
+	margin:0 !important;
+}
+
+.gsAppearanceOptions li {
+	clear:both !important;
+}
+
+.gsAppearanceOptions .key {
+	display:block !important;
+	width:120px !important;
+	float:left !important;
+	margin-right:10px !important;
+	text-align:right !important;
+}
+
+.gsAppearanceOptions .key label {
+	line-height:26px !important;
+}
+
+.gsAppearanceOptions .value {
+	display:block !important;
+	float:left !important;
+	margin-bottom:8px !important;
+}
+
+.gsAppearanceOptions .value input[type=text] {
+	margin-right:10px !important;
+}
+
+/*
+ The select input for the Grooveshark Widgets preset color schemes
+ */
+
+#colors-select, #widgetTheme {
+    width: 185px !important;
+}
+
+.gsColorBlockContainer {
+	float:left !important;
+	margin-right:10px !important;
+}
+
+.gsColorBlock {
+	width:60px !important;
+	height:60px !important;
+	border:1px solid #000 !important;
+}
+
+#gsWidgetExample {
+/*
+	background:url(../screenshot-3.jpg) no-repeat;
+	width:258px;
+	height:310px;
+        */
+	margin:10px 0 10px 130px;
+}
+
+/*
+ The Save Music button container
+ */
+
+#gsSave {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.gsSongBox27 #selected-songs-header {
+	background:#F1F1F1 !important;
+	padding: 8px !important;
+	text-align:left !important;
+	border:1px solid #DFDFDF !important;
+	-moz-border-radius-topleft:3px !important;
+	-moz-border-radius-topright:3px !important;
+}
+
+.gsSongBox26 #selected-songs-header {
+	background:#CEE1EF !important;
+	padding: 8px !important;
+	text-align:left !important;
+	-moz-border-radius-topleft:5px !important;
+	-moz-border-radius-topright:5px !important;
+}
+
+#selected-songs-header h4 {
+	margin:0 !important;
+	font-size:11px !important;
+}
+
+#selected-songs-table {
+	border:1px solid #DFDFDF !important;
+	border-top:none !important;
+	background:#F9F9F9 !important;
+	-moz-border-radius-bottomleft:3px !important;
+	-moz-border-radius-bottomright:3px !important;
+	width:100% !important;
+}
+
+#selected-songs-table tr {
+        cursor: move;
+}
+
+.gsSongBox26 #selected-songs-table {
+	border:1px solid #CEE1EF !important;
+}
+
+#selected-songs-table pre {
+	font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif !important;
+	font-size:11px !important;
+}
+
+/*
+ * Misc
+ */
+.temporaryError {
+    font-weight: bold;
+    background-color: #FCC;
+}

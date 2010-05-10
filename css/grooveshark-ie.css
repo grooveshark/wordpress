@@ -1,0 +1,85 @@
+/*
+ Grooveshark Wordpress Plugin CSS IE Specific File
+ Note: All styles have !important declarations
+ to override wordpress styles. 
+ */
+
+/*
+ IE 7 Specific
+ */
+
+#IE7 #searchInputWrapper {
+	margin-left:-70px !important;
+}
+
+#IE7 .gsSongBox26 #searchInputWrapper {
+	margin-left:-85px !important;
+}
+
+#IE7 #searchInput {
+	margin-left:70px !important;
+}
+
+#IE7 .gsSongBox26 #searchInput {
+	margin-left:85px !important;
+}
+
+#IE7 .gsSongBox26 #searchButton {
+	float:left !important;
+	width:40px !important;
+	margin-left:5px;
+}
+
+#IE7 #gsSearchButton {
+	height:24px;
+}
+
+/*
+ IE 6 Specific
+ */
+
+* html #searchInputWrapper {
+	margin-left:-70px !important;
+}
+
+* html .gsSongBox26 #searchInputWrapper {
+	width:auto !important;
+	margin-left:0 !important;
+	float:left !important;}
+
+* html #searchInput {
+	margin-left:85px !important;
+}
+
+* html .gsSongBox26 #searchInput {
+	margin-left:0 !important;
+}
+
+* html .gsSongBox26 #gs-query {
+	width:530px !important;
+}
+
+* html .gsSongBox26 #searchButton {
+	position:relative !important;
+	float:right !important;
+	width:40px !important;
+	margin-right:0 !important;
+}
+
+* html #gsSearchButton {
+	height:25px !important;
+}
+
+* html #search-results-wrapper {
+	height: expression( this.scrollHeight > 199 ? "200px" : "auto" ); /* sets max-height for IE */
+}
+
+* html .clear{
+	overflow:hidden !important; height:0px !important;
+}
+
+* html .gsTabContainer26 li,
+* html .gsTabContainer27 li{
+	width:100px !important;
+	text-align:center !important;
+}
